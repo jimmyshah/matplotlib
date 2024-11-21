@@ -237,10 +237,17 @@ means that the dependencies must be explicitly installed, either by :ref:`creati
 - `NumPy <https://numpy.org>`_ (>= 1.22).  Also a runtime dependency.
 
 
-.. _compile-dependencies:
-
 Compilers and external build tools
 ----------------------------------
+
+.. _ninja-dependencies:
+
+When setting up a virtual environment for development, `ninja <https://ninja-build.org/>`_
+(>= 1.8.2) may need to be installed separately. This may be available
+as a `pre-built binary <https://github.com/ninja-build/ninja/releases>`_ or from a `package manager <https://github.com/ninja-build/ninja/wiki/Pre-built-Ninja-packages>`_ or bundled with Meson. Ninja may also be installed via ``pip`` if
+otherwise not available.
+
+.. _compile-dependencies:
 
 Matplotlib requires a C++ compiler that supports C++17, and each platform has a
 development environment that must be installed before a compiler can be installed.
@@ -303,13 +310,6 @@ VS Code or Linux package manager. Choose **one** compiler from this list:
      - **16.0**
      - Windows
      - `Visual Studio 2019 C++ <https://docs.microsoft.com/en-us/cpp/overview/visual-cpp-language-conformance?view=msvc-160>`_
-
-.. _ninja-dependencies:
-
-When setting up a virtual environment for development, `ninja <https://ninja-build.org/>`_
-(>= 1.8.2) may need to be installed separately. This may be available
-as a `pre-built binary <https://github.com/ninja-build/ninja/releases>`_ or from a `package manager <https://github.com/ninja-build/ninja/wiki/Pre-built-Ninja-packages>`_ or bundled with Meson. Ninja may also be installed via ``pip`` if
-otherwise not available.
 
 
 .. _test-dependencies:
