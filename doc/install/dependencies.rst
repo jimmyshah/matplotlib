@@ -244,7 +244,7 @@ Ninja
 
 When setting up a virtual environment for development, `ninja <https://ninja-build.org/>`_
 (>= 1.8.2) may need to be installed separately. This may be available in your
-package manager or bundled with Meson, but may be installed via ``pip`` if
+as a `pre-built binary <https://github.com/ninja-build/ninja/releases>`_ or from a `package manager <https://github.com/ninja-build/ninja/wiki/Pre-built-Ninja-packages>`_ or bundled with Meson. Ninja may also be installed via ``pip`` if
 otherwise not available.
 
 
